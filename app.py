@@ -61,7 +61,7 @@ def predict():
     print(pred_final)
 
     return render_template('index.html', 
-                            pred_final = 'Rating: {}'.format(pred_final)                     
+                            pred_final = 'Expected Rating is: {}'.format(pred_final)                     
                             )
      
 # Server reloads itself if code changes so no need to keep restarting:
